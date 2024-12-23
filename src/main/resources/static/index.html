@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connected Users</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+
+  <div class="main">
+    <div class="new-meeting">
+      <button id="newMeetingBtn">Create a New Meeting</button>
+      <div class="join-meeting">
+        <input type="text" placeholder="Meeting ID" id="meetingName">
+        <button id="joinMeetingBtn">Join</button>
+      </div>
+    </div>
+    <div class="connected-users">
+      <button id="logoutBtn">Logout</button>
+      <h2>Connected Users</h2>
+      <ul id="userList"></ul>
+    </div>
+    <div class="delete-users">
+      <button id="deleteBtn">Delete Account</button>
+    </div>
+    <div class="update-users">
+      <button id="updateBtn">Update Account</button>
+    </div>
+  </div>
+</div>
+<script src="/js/index.js"></script>
+</body>
+</html>
