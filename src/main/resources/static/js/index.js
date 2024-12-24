@@ -33,7 +33,7 @@ function displayUsers(userList, userListElement) {
                     <i class="fa fa-user-circle"></i>
                     ${user.username} <i class="user-email">(${user.email})</i>
                 </div>
-                <i class="fa fa-lightbulb-o ${user.status === "online" ? "online" : "offline"}"></i>
+                <i class="fa fa-circle-o ${user.status === "online" ? "online" : "offline"}"></i>
             `;
         userListElement.appendChild(listItem);
     });
